@@ -1,0 +1,35 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+p, li{
+    text-align: center;
+}
+
+i, span{
+    font-weight: bold;
+}
+
+h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+
+footer{
+    background-color: #005677;
+    color:#E5E5E5;
+    text-align: center;
+}
+
+
