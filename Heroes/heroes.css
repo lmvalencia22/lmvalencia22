@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.BarraSup {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.BarraInf {
+    padding: 28px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px 0px #00000040;
+
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 16px;
+
+}
+
+#Contenedor {
+justify-content:  center;
+    margin-top: 154px; 
+    margin-bottom: 151px;
+    display: flex;
+
+}
+
+.Card {
+    height: 529px;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+    
+
+}
+
+.ImagenCard {
+    border-radius: 16px 16px 0px 0px;
+    height: 193px;
+    
+
+}
+
+.ImagePerfil {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 90px;
+    top: 128px;
+}
+
+#Harley{
+    margin: 0px 30px;
+}
