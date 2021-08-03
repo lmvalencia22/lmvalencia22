@@ -1,23 +1,218 @@
 .rectangulo1 {
   width: 100%;
   height: 20px;
-  left: calc(50% - 1024px / 2);
+  left: calc(50% - 1024px/2);
   top: 0px;
   background: #222222;
+  display: flex;
 }
+
+.divcontainer2{
+  display: flex;
+}
+.grandesComederos {
+  width: 138px;
+  height: 12px;
+  color: #F3F3F3;
+  margin-left: 90px;
+  margin-top: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.divcontainer3{
+  display: flex;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.espanol{
+  width: 36px;
+  height: 12px;
+  color: #F3F3F3;
+  margin-top: 4px;
+  margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  
+}
+
+.flecha{
+  width: 5.5px;
+  height: 2.75px;
+  margin-top: 9px;
+  margin-right: 9px;
+}
+
+.arg{
+  width: 26px;
+  height: 12px;
+  color: #F3F3F3;
+  margin-top: 4px;
+  margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.flechad{
+  width: 5.5px;
+  height: 2.75px;
+  margin-top: 9px;
+}
+
 .rectangulo2 {
+  display: flex;
   width: 100%;
   height: 62px;
-  left: calc(50% - 1024px / 2);
-  top: 20px;
-
+  display: flex;
   background: #f0a83e;
+} 
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+}
+
+.gato{
+  width: 15.68px;
+  height: 13.12px;
+  margin-left: 40px;
+
+}
+
+.front{
+  width: 57.21px;
+  height: 23px;
+  margin-top: center;
+  color: #3C2313;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.catDog{
+  width: 96.35px;
+  height: 23px;
+  margin-top: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  font-size: 20px
+}
+
+.dog{
+  width: 15.68px;
+  height: 13.12px;
+}
+
+.contenedor2{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.huella{
+  width: 15px;
+  height: 14px;
+  margin-right: 0%;
+}
+
+.categorias{
+  width: 64px;
+  height: 14px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-top: center;
+  margin-right: 9px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px; 
+}
+
+.huellad{
+  width: 15px;
+  height: 14px;
+}
+
+.pets{
+  width: 27px;
+  height: 14px; 
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: 9px;
+  margin-top: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.huella3{
+  width: 15px;
+  height: 14px;
+}
+
+.nosotros{
+  width: 27px;
+  height: 14px; 
+  color: #FFFFFF;
+  margin-right: 30px;
+  margin-top: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.huella4{
+  width: 15px;
+  height: 14px;
+}
+
+.contactanos{
+  width: 27px;
+  height: 14px; 
+  color: #FFFFFF;
+  margin-top: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+.contenedor-img-principal{
+  background-image: url(../img/imagen1.jpg);
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.tenerte{
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  width: 365px;
+  height: 54px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 54px;
+}
+
+.div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  margin:0%; 
+}
 }
 h1 {
   width: 100%;
   text-align: center;
 }
+
 .imagen {
   width: 100%;
-  height: 409px;
+  height: 100%;
 }
+
+header {
+  width: 100%;
+  height: 62px;
+  left: 0px;
+  top: 20px;
+}
+
